@@ -28,7 +28,7 @@ echo [31mReady to clean up?[0m
 pause
 
 echo [33mCleaning desktop...[0m
-rd /s /q C:\Users\Admin\Desktop\RenameComputer
+rd /s /q "C:\Users\Admin\Desktop\Run 2nd"
 
 DEL /F /S /Q /A C:\Users\Admin\Desktop\*.exe
 
