@@ -25,7 +25,7 @@ if '%errorlevel%' NEQ '0' (
 ::--------------------------------------
 echo Joining WSUS...
 
-Powershell.exe -executionpolicy remotesigned -File  "C:\Users\Admin\Desktop\WSUSUpdate\WSUSJoin.ps1
+Powershell.exe -executionpolicy remotesigned -File  "C:\Users\Admin\Desktop\Standalone-WSUSUpdate\WSUSJoin.ps1
 
 echo If you can read this and the prompt does not close, the script may have failed...
 pause

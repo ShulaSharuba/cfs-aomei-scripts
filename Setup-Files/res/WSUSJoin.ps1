@@ -15,7 +15,6 @@ if ((gwmi win32_computersystem).partofdomain -eq $true) {
     Write-Host -fore red "DO NOT CLOSE THIS PROMPT. THE COMPUTER MUST LEAVE THE DOMAIN BEFORE PROCEEDING"
     Write-Host -fore red "If the prompt is closed before completion YOU MUST RESTART THE COMPUTER or run C:\wupdate.bat"
     Write-Host -fore yellow "Please enter Wifi password when prompted"
-    Write-host -fore red "-> regnCFS55"
     write-host -fore yellow "Computer will automatically restart on success"
     Set-DNS
     while(1)

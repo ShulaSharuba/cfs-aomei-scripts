@@ -9,7 +9,6 @@ Write-Host "Please view the README for more detailed instructions"
 if ((gwmi win32_computersystem).partofdomain -eq $true) {
     write-host -fore green "Leaving WSUS domain"
     Write-Host -fore green "Please enter Wifi password when prompted"
-    Write-host -fore red "-> regnCFS55"
     write-host -fore green "Computer will automatically restart on success"
     while(1)
     {
@@ -32,7 +31,6 @@ if ((gwmi win32_computersystem).partofdomain -eq $true) {
 } else {
     write-host -fore green "Joining WSUS domain"
     Write-Host -fore green "Please enter Wifi password when prompted"
-    Write-host -fore red "-> regnCFS55"
     write-host -fore green "Computer will automatically restart on success"
     Set-DNS
     while(1)
